@@ -1,6 +1,5 @@
 <div class="loginContainer">
   <div class="loginForm">
-
     <div class="logo">
       <img src="/assets/img/UI-Unicorn-Logo.svg" alt="logo Unicorn" />
     </div>
@@ -9,58 +8,70 @@
       <img src="/assets/img/48 000,00 ₽.png" alt="welcome sentence" />
     </div>
 
+    <app-input
+      #emailInput
+      type="email"
+      placeholder="Email or Phone number"
+      label="Login"
+      name="email"
+    ></app-input>
 
-    <div class="inputEmail">
-      <app-input  type="email"  placeholder="Email or Phone number" label="Login" name="email"></app-input>
-    </div>
     <div class="inputPassword">
-      <app-input  type="password"  placeholder="Enter password" label="Password" name="Password" > </app-input>
+      <app-input
+        type="password"
+        placeholder="Enter password"
+        label="Password"
+        name="Password"
+      >
+      </app-input>
     </div>
     <div class="toogle">
       <div>
-        <img src="/assets/img/Switcher-Item-Left.png" alt="remember me">
+        <img src="/assets/img/Switcher-Item-Left.png" alt="remember me" />
       </div>
 
       <div>
-        <img src="/assets/img/forgetpass.png" alt="">
-
-      </div>
-
-    </div>
-    <div class="blueButton">
-      <app-button class="blueButton" name="Sign in"></app-button>
-    </div>
-    <div class="blackButton">
-      <app-button class="blackButton" name="Or sign with Google"></app-button>
-    </div>
-
-    <div class="registerLink">
-      <div>
-        <img src="/assets/img/doYhaveAccount.png" alt="">
-      </div>
-
-      <div>
-        <a routerLink="/register">
-          <img src="/assets/img/signUp.png" alt="">
+        <a routerLink="/forgetpassword">
+          <img src="/assets/img/forgetpass.png" alt="forgot password" />
         </a>
       </div>
     </div>
 
+    <div class="buttons">
+      <!-- <div class="blueButton"> -->
+      <app-button class="blueButton" name="Sign in"></app-button>
+      <!-- </div> -->
+      <!-- <div class="blackButton"> -->
+      <app-button
+        class="blackButton"
+        name="Or sign with Google"
+        src="/assets/img/logoGoogle.png"
+        alt="logo de google"
+      >
+      </app-button>
+      <!-- </div> -->
+    </div>
+
+    <div class="registerLink">
+      <div>
+        <img src="/assets/img/doYhaveAccount.png" alt="" />
+      </div>
+
+      <div>
+        <a routerLink="/register">
+          <img src="/assets/img/signUp.png" alt="" />
+        </a>
+      </div>
+    </div>
   </div>
-
-
 
   <div class="loginfoot">
     <div>
-      <img src="/assets/img/Figma.png" alt="logo figma" />
+      <img src="/assets/img/Frame 28987.png" alt="logo figma" />
     </div>
 
     <div>
-      <img src="/assets/img/Head.png" alt="" />
-    </div>
-
-    <div>
-      <img src="/figma/src/assets/img/copy.png" alt="" />
+      <img src="/assets/img/copy.png" alt="" />
     </div>
   </div>
 </div>

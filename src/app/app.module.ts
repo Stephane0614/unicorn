@@ -8,6 +8,7 @@ import { ButtonComponent } from './_component/button/button.component';
 import { LinkComponent } from './_component/link/link.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { ForgetpasswordComponent } from './forgetpassword/forgetpassword.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RegisterComponent } from './register/register.component';
     ButtonComponent,
     LinkComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ForgetpasswordComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,24 @@
+.blueButton {
+  background-color: blue;
+}
+
+.blackButton {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.blueButton,
+.blackButton {
+  box-sizing: border-box;
+  border: 0.5px solid #e5e5e5;
+  border-radius: 6px;
+  height: 42px;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+  transform: translateY(-1.5px);
+}

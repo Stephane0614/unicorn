@@ -1,22 +1,5 @@
-
-.inputEmail{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    box-sizing: border-box;
-
-/* position: absolute; */
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-height: 42px;
-
-/* Black-50 (#F2F2F2) */
-background: #F2F2F2;
-/* Black-100 (#E5E5E5) */
-border: 0.5px solid #E5E5E5;
-border-radius: 6px;
-
-
+router-outlet{
+    width: 74%;
+    height: 57%;
   }
+

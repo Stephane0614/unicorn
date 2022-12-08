@@ -1,3 +1,9 @@
+<div class="inputEmail" >
+  
+  <label  [for]="name">{{label}}</label>
 
-<label  [for]="name">{{label}}</label>
-  <input #connexInput   [type]="type" [placeholder]="placeholder"  [name]="name">
+  <input #refEmail  class="inputOrigin"  [type]="type" [placeholder]="placeholder"
+  [name]="name"  (change)="sendInput(refEmail.value)"  (change)="validEmail(refEmail.value)">
+
+</div>
+

@@ -1,13 +1,17 @@
-.loginContainer{
-width: 30%;
+.toogle{
+    display: flex;
+    justify-content: space-between;
 }
 
-
-/* .rootContainer{
-    border: 1px solid black;
-    width: 36%;
-    display: 1;
+.registerLink{
     display: flex;
-    align-items: center;
-    justify-content: center;
-  } */
+    /* gap: 10px; */
+    justify-content: space-between;
+
+}
+
+.loginfoot{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+}
