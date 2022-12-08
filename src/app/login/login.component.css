@@ -12,6 +12,12 @@
 
 .loginfoot{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-self: flex-end;
+}
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
 }

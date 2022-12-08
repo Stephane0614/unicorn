@@ -1,9 +1,9 @@
 <div class="inputEmail" >
-  
+
   <label  [for]="name">{{label}}</label>
 
   <input #refEmail  class="inputOrigin"  [type]="type" [placeholder]="placeholder"
-  [name]="name"  (change)="sendInput(refEmail.value)"  (change)="validEmail(refEmail.value)">
+  [name]="name"    (change)="inputEmitter.emit(refEmail.value)">
 
 </div>
 

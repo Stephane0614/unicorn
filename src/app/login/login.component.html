@@ -1,15 +1,14 @@
+
+
+
 <div class="loginContainer">
   <div class="loginForm">
-    <div class="logo">
-      <img src="/assets/img/UI-Unicorn-Logo.svg" alt="logo Unicorn" />
-    </div>
-
     <div class="devise">
       <img src="/assets/img/48 000,00 ₽.png" alt="welcome sentence" />
     </div>
 
     <app-input
-      #emailInput
+      (inputEmitter)="validEmail($event)"
       type="email"
       placeholder="Email or Phone number"
       label="Login"
@@ -65,13 +64,6 @@
     </div>
   </div>
 
-  <div class="loginfoot">
-    <div>
-      <img src="/assets/img/Frame 28987.png" alt="logo figma" />
-    </div>
 
-    <div>
-      <img src="/assets/img/copy.png" alt="" />
-    </div>
-  </div>
 </div>
+

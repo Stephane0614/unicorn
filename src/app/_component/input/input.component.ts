@@ -17,10 +17,5 @@ export class InputComponent {
     console.log('email ' + email + ' envoyé');
   }
 
-  validEmail(email: string) {
-    if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
-      alert('Format Email invalide');
-      console.log('Format Email invalide');
-    }
-  }
+ 
 }
