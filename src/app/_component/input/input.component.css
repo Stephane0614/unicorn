@@ -5,6 +5,11 @@
     ;
 }
 
+.inputEmail label{
+  color: white;
+  margin-top: 30px;
+}
+
 .inputOrigin{
 
   box-sizing: border-box;

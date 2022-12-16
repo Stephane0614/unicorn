@@ -7,15 +7,17 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 })
 export class InputComponent {
   email: string = '';
+  @Input() style!: string;
   @Input() label!: string;
   @Input() placeholder!: string;
   @Input() type: string = '';
   @Input() name: string = '';
+  @Input() id:string ="";
   @Output() inputEmitter: EventEmitter<string> = new EventEmitter();
 
   sendInput(email: string) {
     console.log('email ' + email + ' envoyé');
   }
 
- 
+
 }

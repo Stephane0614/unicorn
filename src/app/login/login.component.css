@@ -1,12 +1,16 @@
 .toogle{
+  margin-top: 20px;
+  margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
 }
+
 
 .registerLink{
     display: flex;
     /* gap: 10px; */
     justify-content: space-between;
+    height: 10%;
 
 }
 
@@ -22,3 +26,16 @@
     gap: 10px;
     /* justify-content: space-between; */
 }
+
+.devise{
+  color: white;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+

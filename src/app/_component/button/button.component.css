@@ -1,5 +1,8 @@
 .blueButton {
-  background-color: blue;
+  background-color:blue;
+}
+.blueButton:hover {
+  background-color:rgb(91, 158, 245);
 }
 
 .blackButton {
@@ -9,6 +12,9 @@
   align-items: center;
   justify-content: center;
   gap: 5px;
+}
+.blackButton:hover{
+  background-color: rgb(45, 47, 45);
 }
 
 .blueButton,
@@ -21,4 +27,11 @@
   width: 100%;
   cursor: pointer;
   transform: translateY(-1.5px);
+
 }
+
+.blueButton:hover{
+  color: white;
+}
+
+

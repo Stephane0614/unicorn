@@ -9,6 +9,7 @@ import { LinkComponent } from './_component/link/link.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ForgetpasswordComponent } from './forgetpassword/forgetpassword.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,11 +19,13 @@ import { ForgetpasswordComponent } from './forgetpassword/forgetpassword.compone
     LinkComponent,
     LoginComponent,
     RegisterComponent,
-    ForgetpasswordComponent
+    ForgetpasswordComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
