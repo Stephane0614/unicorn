@@ -1,24 +1,19 @@
-import { Component, Input,Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-link',
   templateUrl: './link.component.html',
-  styleUrls: ['./link.component.css']
+  styleUrls: ['./link.component.css'],
 })
 export class LinkComponent {
+  route: string = '';
 
-  route: string = "";
+  @Output() clickEmitter: EventEmitter<any | null> = new EventEmitter<
+    any | null
+  >();
 
-  @Output() clickEmitter: EventEmitter<any|null> = new EventEmitter<any|null>();
-
-
-  emitClick(route: string){
+  emitClick(route: string) {
     this.route = route;
-    console.log("click")
+    console.log('click');
   }
-
-
-  // @Input() route: String;
-  // @Input() src: string;
-
 }

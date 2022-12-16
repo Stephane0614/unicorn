@@ -1,28 +1,49 @@
 <div class="registerContainer">
-  <form class="formContainer" id="form_1" [formGroup]="formControler" (ngSubmit)="submit()">
-
+  <form
+    class="formContainer"
+    id="form_1"
+    [formGroup]="formControler"
+    (ngSubmit)="submit()"
+  >
     <label for="nom">Nom</label>
-    <input formControlName="_nom" type="text" placeholder="Entrer votre nom" id="nom" />
+    <input
+      formControlName="_nom"
+      type="text"
+      placeholder="Entrer votre nom"
+      id="nom"
+    />
 
     <label for="prenom">Prenom</label>
-    <input formControlName="_prenom" type="text" placeholder="Entrer votre prenom" id="prenom" />
+    <input
+      formControlName="_prenom"
+      type="text"
+      placeholder="Entrer votre prenom"
+      id="prenom"
+    />
 
     <label for="email">Email</label>
-    <input formControlName="_email" type="email" placeholder="Entrer votre email" id="email" />
+    <input
+      formControlName="_email"
+      type="email"
+      placeholder="Entrer votre email"
+      id="email"
+    />
 
-    <label for="password" >password</label>
-    <input formControlName="_password" type="password" placeholder="Entrer votre password" id="password" />
+    <label for="password">password</label>
+    <input
+      formControlName="_password"
+      type="password"
+      placeholder="Entrer votre password"
+      id="password"
+    />
 
     <label for="passwordControl">passeword control</label>
-      <input  formControlName="_passwordControl" type="password" placeholder="verifier votre password" id="passwordControl" />
-      <!-- <ng-container *ngIf="_password?.value  !== _passwordControl?.value">
-        <p>
-          le mot de passe de controle invalide
-        </p>
-
-      </ng-container> -->
-      <button class="button" type="submit" form="form_1">Sign Up</button>
-
-
+    <input
+      formControlName="_passwordControl"
+      type="password"
+      placeholder="verifier votre password"
+      id="passwordControl"
+    />
+    <button class="button" type="submit" form="form_1">Sign Up</button>
   </form>
 </div>

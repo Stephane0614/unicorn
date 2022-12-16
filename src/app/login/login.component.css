@@ -1,41 +1,34 @@
-.toogle{
+.toogle {
   margin-top: 20px;
   margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-
-.registerLink{
-    display: flex;
-    /* gap: 10px; */
-    justify-content: space-between;
-    height: 10%;
-
+.registerLink {
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
 }
 
-.loginfoot{
-    display: flex;
-    /* justify-content: space-between; */
-    align-self: flex-end;
+.loginfoot {
+  display: flex;
+  align-self: flex-end;
 }
 
-.loginContainer{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    /* justify-content: space-between; */
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.devise{
+.devise {
   color: white;
 }
 
-.buttons{
+.buttons {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 30px;
 }
-
-

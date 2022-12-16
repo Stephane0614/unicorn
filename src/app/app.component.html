@@ -1,39 +1,27 @@
-
 <div class="rootContainer">
+  <div class="imagContainer">
+    <span class="text blue">Steph-le-dev</span>
+    <span class="text red">Steph-le-dev</span>
+    <span class="text green">Steph-le-dev</span>
+  </div>
 
-   <div class="imagContainer">
-      <!-- <span class="imageMer"> -->
-         <!-- <img src="/assets/img/OctomLogo.png" alt="phare en bors de mer" />  -->
-         <!-- <div class='container'> -->
-          <span class='text blue'>Steph-le-dev</span>
-          <span class='text red'>Steph-le-dev</span>
-          <span class='text green'>Steph-le-dev</span>
-
-        <!-- </div> -->
-      <!-- </span> -->
+  <div class="sideContainer">
+    <div class="logo">
+      <a routerLink="">
+        <img src="/assets/img/logoAlone.png" alt="logo Octom" />
+      </a>
     </div>
 
-    <div class="sideContainer">
+    <router-outlet> </router-outlet>
 
-      <div class="logo">
-        <a routerLink="">
-          <img src="/assets/img/logoAlone.png" alt="logo Octom" />
-        </a>
+    <div class="loginfoot">
+      <div>
+        <img src="/assets/img/Frame 28987.png" alt="logo figma" />
+      </div>
 
-       </div>
-
-       <router-outlet> </router-outlet>
-
-       <div class="loginfoot">
-         <div>
-           <img src="/assets/img/Frame 28987.png" alt="logo figma" />
-         </div>
-
-         <div>
-           <img src="/assets/img/copy.png" alt="" />
-         </div>
-       </div>
-     </div>
-
-
+      <div>
+        <img src="/assets/img/copy.png" alt="" />
+      </div>
     </div>
+  </div>
+</div>
