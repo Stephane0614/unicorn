@@ -1,7 +1,7 @@
 <div class="loginContainer">
   <div class="loginForm">
     <div class="devise">
-      <p>Nice to see you again</p>
+      <p >Nice to see you again</p>
     </div>
 
     <app-input
@@ -16,6 +16,7 @@
 
     <div class="inputPassword">
       <app-input
+      (inputEmitter)="validPassword($event)"
         id="idPassword"
         type="password"
         placeholder="Enter password"

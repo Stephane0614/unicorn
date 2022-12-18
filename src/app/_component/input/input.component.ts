@@ -15,9 +15,7 @@ export class InputComponent {
   @Input() id:string ="";
   @Output() inputEmitter: EventEmitter<string> = new EventEmitter();
 
-  sendInput(email: string) {
-    console.log('email ' + email + ' envoyé');
-  }
+
 
 
 }
